@@ -1,22 +1,38 @@
 
-# 🤖 AI LinkedIn Recruiter Outreach Automation
+<div align="center">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Selenium-Automation-43B02A?style=for-the-badge&logo=selenium"/>
-  <img src="https://img.shields.io/badge/Gmail-API-EA4335?style=for-the-badge&logo=gmail"/>
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+# 🚀 AI LinkedIn Recruiter Outreach Automation
+
+### **Scrape Recruiters • Customize Resume • Send Personalized Emails**
+
+<p>
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
+<img src="https://img.shields.io/badge/Gmail_API-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+<img src="https://img.shields.io/badge/AI-Resume_Customization-7B61FF?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
 </p>
 
-<p align="center">
-<b>Automate recruiter outreach from LinkedIn using AI-powered resume customization and Gmail API.</b>
-</p>
+**Automate the complete recruiter outreach workflow — from LinkedIn hiring posts to personalized recruiter emails with AI-customized resumes.**
+
+</div>
 
 ---
 
-## 🚀 Overview
+## ✨ Highlights
 
-This project automates the complete recruiter outreach workflow:
+- 🔍 Scrapes recent LinkedIn hiring posts
+- 📧 Extracts recruiter email addresses
+- 📄 Extracts complete Job Descriptions
+- 🤖 AI customizes resume based on every JD
+- 📨 Generates personalized outreach emails
+- 📎 Attaches customized PDF resume
+- 📬 Sends emails using Gmail API
+- 📊 Tracks sent emails & prevents duplicates
+
+---
+
+## ⚡ Workflow
 
 ```text
 LinkedIn Hiring Posts
@@ -25,7 +41,7 @@ LinkedIn Hiring Posts
 Recruiter Email Extraction
         │
         ▼
-Job Description Extraction
+Full Job Description
         │
         ▼
 AI Resume Customization
@@ -34,71 +50,50 @@ AI Resume Customization
 Professional Email Generation
         │
         ▼
-Gmail API Sending
+Gmail API
         │
         ▼
-Tracking & Duplicate Detection
+Tracking & Deduplication
 ```
 
-Instead of manually searching jobs, finding recruiter emails, editing resumes, writing emails, and tracking submissions, this tool automates the entire process.
+---
+
+## 🛠 Tech Stack
+
+| Category | Tools |
+|----------|------|
+| Language | Python |
+| Web Automation | Selenium |
+| AI Processing | Resume Customization |
+| Email | Gmail API |
+| Documents | python-docx, docx2pdf |
+| Data | Pandas, CSV |
 
 ---
 
-# ✨ Features
-
-- 🔍 LinkedIn Hiring Post Scraper
-- 📧 Recruiter Email Extraction
-- 📄 Full Job Description Extraction
-- 🤖 AI Resume Customization (JD Based)
-- 📨 Professional Email Generation
-- 📎 Automatic Resume Attachment
-- 📬 Gmail API (Draft / Send)
-- 📊 CSV Lead Management
-- 🚫 Duplicate Email Detection
-- 📈 Sent Email Tracking
-
----
-
-# 🛠 Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| Python | Core Automation |
-| Selenium | LinkedIn Scraping |
-| Gmail API | Email Automation |
-| python-docx | Resume Editing |
-| docx2pdf | PDF Generation |
-| Pandas | CSV Management |
-
----
-
-# 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 AI-linkedin-recruiter-outreach-automation/
-│
 ├── main.py
 ├── config.py
 ├── candidate_data.json
 ├── requirements.txt
-│
 ├── src/
 │   ├── linkedin_scraper.py
 │   ├── gmail_service.py
 │   ├── resume_customizer.py
 │   ├── email_template.py
 │   └── csv_manager.py
-│
-├── outputs/
 ├── templates/
 ├── resumes/
-├── credentials/
-└── README.md
+├── outputs/
+└── credentials/
 ```
 
 ---
 
-# ⚡ Quick Start
+## 🚀 Quick Start
 
 ```bash
 git clone https://github.com/Alokjha16/AI-linkedin-recruiter-outreach-automation.git
@@ -108,35 +103,35 @@ cd AI-linkedin-recruiter-outreach-automation
 pip install -r requirements.txt
 ```
 
-Run in Draft Mode
+### Run (Draft Mode)
 
 ```bash
 python main.py
 ```
 
-Send Emails
+### Live Send
 
 ```bash
 python main.py --send
 ```
 
-Skip Scraping
+### Skip Scraping
 
 ```bash
 python main.py --skip-scrape
 ```
 
-Custom Keywords
+### Custom Search
 
 ```bash
-python main.py --keywords "Hiring Python Developer" --max-emails 10
+python main.py --keywords "Hiring Python Developer" --max-emails 20
 ```
 
 ---
 
-# 📤 Output
+## 📦 Outputs
 
-```
+```text
 outputs/
 ├── leads.csv
 ├── sent_log.csv
@@ -146,39 +141,47 @@ outputs/
 
 ---
 
-# 🎯 Use Cases
+## 🌟 Key Features
 
-- Candidate Marketing
-- Recruiter Outreach
-- Staffing Agencies
-- Job Search Automation
-- Resume Personalization
-
----
-
-# 🚀 Future Improvements
-
-- AI Cover Letter Generation
-- Recruiter Response Tracking
-- Campaign Dashboard
-- Multi-Candidate Support
-- AI Lead Scoring
+| ✅ | Description |
+|---|---|
+| LinkedIn Scraping | Collects hiring posts |
+| Email Extraction | Finds recruiter emails |
+| JD Parsing | Reads full job descriptions |
+| Resume Personalization | Tailors resume for each role |
+| Gmail Automation | Drafts or sends emails |
+| Duplicate Protection | Prevents repeated outreach |
+| CSV Tracking | Maintains lead & sent logs |
 
 ---
 
-# 👨‍💻 Author
+## 🗺️ Roadmap
+
+- [x] LinkedIn Scraping
+- [x] Gmail API Integration
+- [x] Resume Customization
+- [x] Duplicate Detection
+- [ ] AI Cover Letter
+- [ ] Campaign Analytics Dashboard
+- [ ] Recruiter Reply Tracking
+- [ ] Multi-Candidate Support
+
+---
+
+## 👨‍💻 Author
 
 **Alok Jha**
 
-- GitHub: https://github.com/Alokjha16
-- LinkedIn: https://linkedin.com/in/alokjha16
+GitHub: https://github.com/Alokjha16
+
+LinkedIn: https://linkedin.com/in/alokjha16
 
 ---
 
-## ⭐ Support
+<div align="center">
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+### ⭐ If you found this project useful, please consider giving it a Star!
 
-<p align="center">
 Made with ❤️ using Python, Selenium & Gmail API
-</p>
+
+</div>
