@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# 🚀 AI LinkedIn Recruiter Outreach Automation.
+# 🚀 AI LinkedIn Recruiter Outreach Automation
 
 ### **Scrape Recruiters • Customize Resume • Send Personalized Emails**
 
