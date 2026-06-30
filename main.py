@@ -2,7 +2,7 @@
 
 import argparse
 import logging
-import random
+import random.
 import re
 import sys
 import time
