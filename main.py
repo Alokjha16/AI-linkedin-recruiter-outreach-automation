@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-import logging
+import logging.
 import random
 import re
 import sys
