@@ -4,7 +4,7 @@ import argparse
 import logging
 import random
 import re
-import sys.
+import sys
 import time
 from pathlib import Path
 
