@@ -1,4 +1,4 @@
-import fitz./
+import fitz./.
 from pathlib import Path
 
 for pdf in sorted(Path("outputs/resumes").glob("custom_resume_*.pdf"))[:3]:
