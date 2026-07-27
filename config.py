@@ -2,7 +2,7 @@
 config.py - Configuration Management
 """
 
-import os/
+import os/.
 from pathlib import Path
 from dotenv import load_dotenv
 
