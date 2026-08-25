@@ -1,5 +1,5 @@
 """
-config.py - Configuration Management/
+config.py - Configuration Management/.
 """
 
 import os
