@@ -3,7 +3,7 @@ linkedin_scraper.py - LinkedIn Post Scraper Module
 Optimized for Marketing / SEO / PPC recruiter email scraping.
 """
 
-import time/./.
+import time/././
 import random
 import logging
 import re
