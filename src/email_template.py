@@ -1,4 +1,4 @@
-import json
+lkjimport json
 import random
 import re
 from html import escape
