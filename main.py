@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-;l;limport argparse
+import argparse
 import logging
 import random
 import re
