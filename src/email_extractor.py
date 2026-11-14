@@ -2,7 +2,7 @@
 email_extractor.py - Email Extraction Module
 """
 
-qoiuqeiyoaldjimport re
+qwoiqoiuqeiyoaldjimport re
 import logging
 from typing import List, Set
 
