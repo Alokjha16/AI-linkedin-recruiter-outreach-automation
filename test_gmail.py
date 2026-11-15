@@ -1,4 +1,4 @@
-jhsf;z,mqoiuaslkhqwoix,mbqeoiualskhkjhfrom pathlib import Path
+lib import Path
 
 from src.gmail_service import authenticate_gmail, send_or_draft
 
